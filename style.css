@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    /*background-image: url(http://www.shoshinsha-design.com/wp-content/uploads/2016/02/backgrounds_001.jpg);*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    
+}
+
+/*ヘッダーエリア*/
+header {
+    margin: -32px -8px 0 -8px;
+    height: 100px;
+    /*background-color: rgba( 0, 204, 0, 0.25 );*/
+    line-height: 100px;
+    border-bottom: 1px solid lightgrey;
+    background-image: url(http://www.shoshinsha-design.com/wp-content/uploads/2016/02/backgrounds_001.jpg);
+
+}
+
+
+.header-left {
+    margin: auto;
+    float: left;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+
+.header-left img {
+    width:  150px;
+    height: 50px;
+}
+
+.header-right {
+    padding-right: 50px;
+    margin: auto;
+    float: right;
+    display: inline-block;
+}
+
+.header-right ,.new-registration {
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+/*モーダルゾーン*/
+.login-modal-wrapper,.signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  /* display: none;を追加してください */
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 6px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#signup-form, #login-form {
+  width: 100%;
+}
+
+#signup-form h2, #login-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input, #login-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+/*モーダルゾーン*/
+
+
+
+
+
+
+
+/*メインエリア*/
+.top-wrapper {
+    height: 300px;
+    border-bottom: 1px solid #eee;
+    background-color: #f7f7f7;
+
+    /*background-image: url(http://www.shoshinsha-design.com/wp-content/uploads/2016/02/backgrounds_001.jpg);*/
+    
+}
+/*ボタンエリア*/
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 50px;
+  /*margin: 80px 50px 50px 50px;*/
+  background-color: rgba( 0, 0, 255, 0.25 );
+  box-shadow: 0px 5px grey;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.signup {
+    background-color: lightgreen;
+}
+
+.facebook {
+    margin: 100px 10px 0 10px;
+}
+
+.twitter {
+    background-color: lightblue;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.btn-wrapper p {
+    color: white;
+}
+
+.btn:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+/*コンテンツエリア*/
+.lesson-wrapper {
+  height: 730px;
+  padding-bottom: 80px;
+  padding-left: 9%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+
+}
+
+.heading {
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon img {
+  width: 80%;
+  height: 180px; 
+  border:1px solid grey;
+  border-radius: 50%;   
+}
+
+.lesson-icon p {
+  /*position: absolute;*/
+  top: 38%;
+  width: 100%;
+  color: #b3aeb5;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+/*メッセージエリア*/
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+    background-image: url(http://www.shoshinsha-design.com/wp-content/uploads/2016/02/backgrounds_001.jpg);
+
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #green;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*FAQゾーン*/
+
+.faq-wrapper {
+  background-color: #e6ecf0;
+  text-align: center;
+  padding-bottom: 80px;
+  color: #5f5d60;
+}
+
+#faq-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 14px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  /* displayプロパティをnoneにしてください */
+  display: none;
+  
+}
+/*FAQゾーン*/
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: grey;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+footer {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  height: 30px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+   /*displayをnoneに指定してください */
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
